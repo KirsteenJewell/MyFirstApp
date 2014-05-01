@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface KJViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *titleLabel;
+
+@property (strong, nonatomic) IBOutlet UITextField *textField;
+
+- (IBAction)buttonPress:(UIButton *)sender;
 
 @end

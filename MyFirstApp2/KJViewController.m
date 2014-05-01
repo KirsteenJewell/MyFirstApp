@@ -26,4 +26,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)buttonPress:(UIButton *)sender
+{
+   self.titleLabel.text = self.textField.text;
+   [self.textField resignFirstResponder];
+}
 @end
